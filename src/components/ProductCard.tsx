@@ -34,6 +34,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         return 'platform-badge platform-badge-amazon';
       case 'flipkart':
         return 'platform-badge platform-badge-flipkart';
+      case 'olx':
+        return 'platform-badge platform-badge-olx';
+      case 'ebay':
+        return 'platform-badge platform-badge-ebay';
       default:
         return 'platform-badge bg-gray-700 text-gray-300';
     }
@@ -44,6 +48,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       case 'amazon':
         return '/lovable-uploads/df66f5ea-b6b9-4a76-aa91-c731b8fd572f.png';
       case 'flipkart':
+        return '/lovable-uploads/df66f5ea-b6b9-4a76-aa91-c731b8fd572f.png';
+      case 'olx':
+        return '/lovable-uploads/df66f5ea-b6b9-4a76-aa91-c731b8fd572f.png';
+      case 'ebay':
         return '/lovable-uploads/df66f5ea-b6b9-4a76-aa91-c731b8fd572f.png';
       default:
         return '/lovable-uploads/df66f5ea-b6b9-4a76-aa91-c731b8fd572f.png';

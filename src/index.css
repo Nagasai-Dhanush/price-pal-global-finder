@@ -70,4 +70,12 @@
   .platform-badge-flipkart {
     @apply bg-[#2874F0]/20 text-[#2874F0];
   }
+  
+  .platform-badge-olx {
+    @apply bg-[#3CB46E]/20 text-[#3CB46E];
+  }
+  
+  .platform-badge-ebay {
+    @apply bg-[#E53238]/20 text-[#E53238];
+  }
 }

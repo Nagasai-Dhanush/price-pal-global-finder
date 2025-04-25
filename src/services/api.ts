@@ -1,4 +1,3 @@
-
 import { Product, PriceHistory } from '@/types/product';
 import { generateProductId } from '@/lib/utils';
 
@@ -124,6 +123,72 @@ const mockProducts: Product[] = [
     url: "https://www.flipkart.com/sony-playstation-5-dualsense-wireless-controller/p/itm65ba7f925b792",
     platform: "Flipkart"
   },
+  {
+    id: generateProductId(),
+    name: "OnePlus Nord CE 3 5G (Used)",
+    price: 22999,
+    shipping: 250,
+    taxes: 0,
+    image: "https://images.olx.in/images/items/nord-ce-3-5g.jpg",
+    url: "https://www.olx.in/item/oneplus-nord-ce-3-5g",
+    platform: "OLX",
+    description: "4 months old, excellent condition, under warranty"
+  },
+  {
+    id: generateProductId(),
+    name: "OnePlus Nord CE 3 5G (Refurbished)",
+    price: 24500,
+    shipping: 0,
+    taxes: 0,
+    image: "https://i.ebayimg.com/images/g/nord-ce-3-5g/s-l1600.jpg",
+    url: "https://www.ebay.com/itm/oneplus-nord-ce-3-5g-refurbished",
+    platform: "eBay",
+    description: "Certified refurbished, 1-year warranty"
+  },
+  {
+    id: generateProductId(),
+    name: "Samsung Galaxy S22 Ultra (Used)",
+    price: 82999,
+    shipping: 300,
+    taxes: 0,
+    image: "https://images.olx.in/images/items/galaxy-s22-ultra.jpg",
+    url: "https://www.olx.in/item/samsung-s22-ultra",
+    platform: "OLX",
+    description: "6 months old, mint condition, all accessories"
+  },
+  {
+    id: generateProductId(),
+    name: "Samsung Galaxy S22 Ultra 5G (Renewed)",
+    price: 85999,
+    shipping: 1500,
+    taxes: 0,
+    image: "https://i.ebayimg.com/images/g/s22-ultra/s-l1600.jpg",
+    url: "https://www.ebay.com/itm/samsung-galaxy-s22-ultra-5g-renewed",
+    platform: "eBay",
+    description: "Factory renewed, international version"
+  },
+  {
+    id: generateProductId(),
+    name: "Apple MacBook Air M1 (Used)",
+    price: 72990,
+    shipping: 0,
+    taxes: 0,
+    image: "https://images.olx.in/images/items/macbook-air-m1.jpg",
+    url: "https://www.olx.in/item/apple-macbook-air-m1",
+    platform: "OLX",
+    description: "3 months old, AppleCare+ valid"
+  },
+  {
+    id: generateProductId(),
+    name: "Apple MacBook Air M1 (Renewed)",
+    price: 75990,
+    shipping: 2000,
+    taxes: 0,
+    image: "https://i.ebayimg.com/images/g/macbook-air-m1/s-l1600.jpg",
+    url: "https://www.ebay.com/itm/apple-macbook-air-m1-renewed",
+    platform: "eBay",
+    description: "Apple certified renewed, international warranty"
+  }
 ];
 
 // Simulated API delay

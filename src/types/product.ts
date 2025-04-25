@@ -33,3 +33,7 @@ export interface SearchFilters {
   platforms: string[];
   sortBy: 'price-asc' | 'price-desc' | 'total-asc' | 'total-desc';
 }
+
+// Update platform type to include new platforms
+export type Platform = 'Amazon' | 'Flipkart' | 'OLX' | 'eBay';
+
